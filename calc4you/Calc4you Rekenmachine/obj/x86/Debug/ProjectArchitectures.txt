@@ -1,1 +1,1 @@
-C:\Users\ankid\Source\Repos\Kortom-Tom\Calc4You\Calc4You\Calc4you Rekenmachine\Calc4you Rekenmachine.csproj;x86
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\Calc4you Rekenmachine.csproj;x86

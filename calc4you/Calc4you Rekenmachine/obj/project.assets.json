@@ -8151,25 +8151,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ankid\\.nuget\\packages\\": {},
+    "C:\\Users\\tomva\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ankid\\Source\\Repos\\Kortom-Tom\\Calc4You\\Calc4You\\Calc4you Rekenmachine\\Calc4you Rekenmachine.csproj",
+      "projectUniqueName": "C:\\Users\\tomva\\OneDrive\\Documents\\GitHub\\calc4you\\calc4you\\Calc4you Rekenmachine\\Calc4you Rekenmachine.csproj",
       "projectName": "Calc4you Rekenmachine",
-      "projectPath": "C:\\Users\\ankid\\Source\\Repos\\Kortom-Tom\\Calc4You\\Calc4You\\Calc4you Rekenmachine\\Calc4you Rekenmachine.csproj",
-      "packagesPath": "C:\\Users\\ankid\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ankid\\Source\\Repos\\Kortom-Tom\\Calc4You\\Calc4You\\Calc4you Rekenmachine\\obj\\",
+      "projectPath": "C:\\Users\\tomva\\OneDrive\\Documents\\GitHub\\calc4you\\calc4you\\Calc4you Rekenmachine\\Calc4you Rekenmachine.csproj",
+      "packagesPath": "C:\\Users\\tomva\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tomva\\OneDrive\\Documents\\GitHub\\calc4you\\calc4you\\Calc4you Rekenmachine\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\ankid\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\tomva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "uap10.0.17763"

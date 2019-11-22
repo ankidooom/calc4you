@@ -42,3 +42,48 @@ C:\Users\ankid\Source\Repos\Kortom-Tom\Calc4You\Calc4You\Calc4you Rekenmachine\o
 C:\Users\ankid\Source\Repos\Kortom-Tom\Calc4You\Calc4You\Calc4you Rekenmachine\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\ankid\Source\Repos\Kortom-Tom\Calc4You\Calc4You\Calc4you Rekenmachine\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\ankid\Source\Repos\Kortom-Tom\Calc4You\Calc4You\Calc4you Rekenmachine\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885274160000000.json
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\bin\x86\Debug\App.xbf
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\bin\x86\Debug\MainPage.xbf
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\bin\x86\Debug\Calc4you Rekenmachine.xr.xml
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\bin\x86\Debug\Calc4you Rekenmachine.exe
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\bin\x86\Debug\Calc4you Rekenmachine.pdb
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\bin\x86\Debug\resources.pri
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\bin\x86\Debug\AppxManifest.xml
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\bin\x86\Debug\Core\AppxManifest.xml
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\bin\x86\Debug\Core\Calc4you Rekenmachine.exe
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\bin\x86\Debug\Calc4you Rekenmachine.build.appxrecipe
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\bin\x86\Debug\System.Runtime.dll
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\Calc4you Rekenmachine.csprojAssemblyReference.cache
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\App.g.i.cs
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\App.g.cs
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\MainPage.g.i.cs
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\MainPage.g.cs
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\XamlTypeInfo.g.cs
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\App.xaml
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\MainPage.xaml
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\App.xbf
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\MainPage.xbf
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\XamlSaveStateFile.xml
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\Calc4you Rekenmachine.csproj.CopyComplete
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\Calc4you Rekenmachine.exe
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\Calc4you Rekenmachine.pdb
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\ResourceHandlingTask.state
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\priconfig.xml
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\priconfig.xml.intermediate
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\unfiltered.layout.resfiles
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\filtered.layout.resfiles
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\filtered.layout.resfiles.intermediate
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\excluded.layout.resfiles
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\excluded.layout.resfiles.intermediate
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\resources.resfiles
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\resources.resfiles.intermediate
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\pri.resfiles
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\pri.resfiles.intermediate
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\qualifiers.txt
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\qualifiers.txt.intermediate
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
+C:\Users\tomva\OneDrive\Documents\GitHub\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885274160000000.json
