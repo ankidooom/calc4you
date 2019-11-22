@@ -8151,24 +8151,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sven Consten\\.nuget\\packages\\": {},
+    "C:\\Users\\callo\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sven Consten\\Documents\\GitHub\\ankido\\calc4you\\calc4you\\Calc4you Rekenmachine\\Calc4you Rekenmachine.csproj",
+      "projectUniqueName": "C:\\Users\\callo\\OneDrive\\Documents\\Nieuw\\calc4you\\calc4you\\Calc4you Rekenmachine\\Calc4you Rekenmachine.csproj",
       "projectName": "Calc4you Rekenmachine",
-      "projectPath": "C:\\Users\\Sven Consten\\Documents\\GitHub\\ankido\\calc4you\\calc4you\\Calc4you Rekenmachine\\Calc4you Rekenmachine.csproj",
-      "packagesPath": "C:\\Users\\Sven Consten\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sven Consten\\Documents\\GitHub\\ankido\\calc4you\\calc4you\\Calc4you Rekenmachine\\obj\\",
+      "projectPath": "C:\\Users\\callo\\OneDrive\\Documents\\Nieuw\\calc4you\\calc4you\\Calc4you Rekenmachine\\Calc4you Rekenmachine.csproj",
+      "packagesPath": "C:\\Users\\callo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\callo\\OneDrive\\Documents\\Nieuw\\calc4you\\calc4you\\Calc4you Rekenmachine\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Sven Consten\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\callo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

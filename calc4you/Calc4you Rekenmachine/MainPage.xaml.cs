@@ -25,6 +25,7 @@ namespace Calc4you_Rekenmachine
         bool Knopplus;
         bool Knopmin;
         bool Knopkeer;
+        bool Knopdelen;
         public MainPage()
         {
             this.InitializeComponent();
@@ -124,12 +125,17 @@ namespace Calc4you_Rekenmachine
         {
             Textbox2.Text = TextBox.Text + "";
             TextBox.Text = "";
+            Knopdelen = true;
         }
-
+        private void mod_Click(object sender, RoutedEventArgs e)
+        {
+            Textbox2.Text = TextBox.Text + "";
+            TextBox.Text = "";
+        }
         public void buttonIs(object sender, RoutedEventArgs e)
         {
-            int getal2 = Convert.ToInt32(Textbox2.Text);
-            int getal1 = Convert.ToInt32(TextBox.Text);
+            int getal1 = Convert.ToInt32(Textbox2.Text);
+            int getal2 = Convert.ToInt32(TextBox.Text);
             if (Knopplus == true)
             {
                 int antwoord = (getal1 + getal2);
@@ -154,13 +160,20 @@ namespace Calc4you_Rekenmachine
                 getal2 = 0;
                 Knopkeer = false;
             }
-            else
+            else if (Knopdelen == true)
             {
                 int antwoord = (getal1 / getal2);
                 TextBox.Text = Convert.ToString(antwoord);
                 getal1 = 0;
                 getal2 = 0;
-
+                Knopdelen = false;
+            }
+            else
+            {
+                int antwoord = (getal1 % getal2);
+                TextBox.Text = Convert.ToString(antwoord);
+                getal1 = 0;
+                getal2 = 0;
             }
         }
         #endregion
