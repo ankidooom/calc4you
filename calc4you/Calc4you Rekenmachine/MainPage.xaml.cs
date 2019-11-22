@@ -177,11 +177,25 @@ namespace Calc4you_Rekenmachine
 
         }
         #endregion
+
         #region functions
         /// public int Berekenen(int getal1, int getal2)
         ///{
         ///    getal1 = Convert.ToInt32(TextBox.Text);        
         ///}
         #endregion
+
+        private void buttenNegative_Click(object sender, RoutedEventArgs e)
+        {
+            double N;
+
+            N = double.Parse(TextBox.Text);
+
+            N = N - (N * 2);
+
+
+
+            TextBox.Text = N.ToString("0");
+        }
     }
 }

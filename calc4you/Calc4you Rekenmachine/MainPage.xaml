@@ -28,7 +28,7 @@
         <Button x:Name="buttonMin" Content="-" Margin="783,226,0,0" VerticalAlignment="Top" Height="74" Width="199" FontSize="45" FontWeight="Bold" Click="buttonMin_Click"/>
         <Button x:Name="buttonKeer" Content="*" Margin="783,305,0,0" VerticalAlignment="Top" Height="74" Width="199" FontSize="45" FontWeight="Bold" Click="buttonKeer_Click"/>
         <Button x:Name="buttonDelen" Content="/" Margin="783,384,0,0" VerticalAlignment="Top" Height="74" Width="199" FontSize="45" FontWeight="Bold" Click="buttonDelen_Click"/>
-        <Button Content="Button" Margin="987,147,0,0" VerticalAlignment="Top" Height="74" Width="199"/>
+        <Button x:Name="buttenNegative" Content="+/-" Margin="987,147,0,0" VerticalAlignment="Top" Height="74" Width="199" Click="buttenNegative_Click"/>
         <Button Content="Button" Margin="987,226,0,0" VerticalAlignment="Top" Height="74" Width="199"/>
         <Button Content="EU > Dollar" Margin="987,305,0,0" VerticalAlignment="Top" Height="74" Width="199"/>
         <Button x:Name="button_" Content="=" Margin="987,384,0,0" VerticalAlignment="Top" Height="74" Width="199" FontSize="45" FontWeight="Bold" Click="buttonIs"/>
