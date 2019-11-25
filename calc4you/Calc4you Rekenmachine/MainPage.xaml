@@ -19,7 +19,7 @@
         <Button x:Name="button9" Content="9" Margin="584,147,0,0" VerticalAlignment="Top" Height="74" Width="194" FontSize="45" FontWeight="Bold" Click="button9_Click"/>
         <Button x:Name="button6" Content="6" Margin="584,226,0,0" VerticalAlignment="Top" Height="74" Width="194" FontSize="45" FontWeight="Bold" Click="button6_Click"/>
         <Button x:Name="button3" Content="3" Margin="584,305,0,0" VerticalAlignment="Top" Height="74" Width="194" FontWeight="Bold" FontSize="45" Click="button3_Click"/>
-        <Button x:Name="buttonProcent" Content="DEX/HEX" Margin="186,384,0,0" VerticalAlignment="Top" Height="74" Width="194" FontWeight="Bold" FontSize="45" Click="buttonProcent_Click"/>
+        <Button x:Name="buttonProcent" Content="BIN" Margin="186,384,0,0" VerticalAlignment="Top" Height="74" Width="194" FontWeight="Bold" FontSize="35" Click="buttonBinary_Click"/>
         <Button x:Name="buttonPunt" Content="," Margin="584,384,0,0" VerticalAlignment="Top" Height="74" Width="194" FontSize="45" FontWeight="Bold" Click="buttonPunt_Click"/>
         <TextBox x:Name="TextBox" HorizontalAlignment="Left" Margin="186,35,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="107" Width="592" HorizontalTextAlignment="Center" TextAlignment="Right" FontSize="60" FontWeight="Bold" TextChanged="TextBox_TextChanged"/>
         <Button x:Name="buttonClear" Content="C" Margin="783,35,0,0" VerticalAlignment="Top" Height="107" Width="199" FontSize="60" FontWeight="Bold" Click="name_Click"/>
@@ -33,5 +33,6 @@
         <Button Content="EU > Dollar" Margin="987,305,0,0" VerticalAlignment="Top" Height="74" Width="199"/>
         <Button x:Name="button_" Content="=" Margin="987,384,0,0" VerticalAlignment="Top" Height="74" Width="199" FontSize="45" FontWeight="Bold" Click="buttonIs"/>
         <TextBox x:Name="Textbox2" HorizontalAlignment="Left" Margin="584,3,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="194" TextAlignment="Right" TextChanged="Textbox2_TextChanged"/>
+        <Button Content="HEX" Margin="1196,35,0,0" VerticalAlignment="Top" Height="56" Width="81" FontSize="25" FontWeight="Bold" Click="buttonHex_Click"/>
     </Grid>
 </Page>

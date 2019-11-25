@@ -244,6 +244,21 @@ namespace Calc4you_Rekenmachine
 
 
         }
-#endregion
+        #endregion
+
+        private void buttonBinary_Click(object sender, RoutedEventArgs e)
+        {
+            int number = int.Parse(TextBox.Text);
+            string Base = Convert.ToString(number, 2);
+            TextBox.Text = Base;
+        }
+
+        private void buttonHex_Click(object sender, RoutedEventArgs e)
+        {
+            int number = int.Parse(TextBox.Text);
+            string Base = Convert.ToString(number, 16);
+            TextBox.Text = Base;
+
+        }
     }
 }

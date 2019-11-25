@@ -177,3 +177,48 @@ C:\Users\callo\OneDrive\Documents\Nieuw\calc4you\calc4you\Calc4you Rekenmachine\
 C:\Users\callo\OneDrive\Documents\Nieuw\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\callo\OneDrive\Documents\Nieuw\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
 C:\Users\callo\OneDrive\Documents\Nieuw\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885274160000000.json
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\Calc4you Rekenmachine.csprojAssemblyReference.cache
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\App.g.i.cs
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\App.g.cs
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\MainPage.g.i.cs
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\MainPage.g.cs
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\XamlTypeInfo.g.cs
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\App.xaml
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\MainPage.xaml
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\App.xbf
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\MainPage.xbf
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\XamlSaveStateFile.xml
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\Calc4you Rekenmachine.exe
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\Calc4you Rekenmachine.pdb
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\bin\x86\Debug\App.xbf
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\bin\x86\Debug\MainPage.xbf
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\bin\x86\Debug\Calc4you Rekenmachine.xr.xml
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\bin\x86\Debug\Calc4you Rekenmachine.exe
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\bin\x86\Debug\Calc4you Rekenmachine.pdb
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\bin\x86\Debug\resources.pri
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\bin\x86\Debug\AppxManifest.xml
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\bin\x86\Debug\Core\AppxManifest.xml
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\bin\x86\Debug\Core\Calc4you Rekenmachine.exe
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\bin\x86\Debug\Calc4you Rekenmachine.build.appxrecipe
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\bin\x86\Debug\System.Runtime.dll
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\Calc4you Rekenmachine.csproj.CopyComplete
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\ResourceHandlingTask.state
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\priconfig.xml
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\priconfig.xml.intermediate
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\unfiltered.layout.resfiles
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\filtered.layout.resfiles
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\filtered.layout.resfiles.intermediate
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\excluded.layout.resfiles
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\excluded.layout.resfiles.intermediate
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\resources.resfiles
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\resources.resfiles.intermediate
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\pri.resfiles
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\pri.resfiles.intermediate
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\qualifiers.txt
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\qualifiers.txt.intermediate
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885274160000000.json

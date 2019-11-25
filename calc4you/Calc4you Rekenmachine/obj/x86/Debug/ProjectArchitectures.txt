@@ -1,1 +1,1 @@
-C:\Users\callo\OneDrive\Documents\Nieuw\calc4you\calc4you\Calc4you Rekenmachine\Calc4you Rekenmachine.csproj;x86
+C:\Users\caagt\source\repos\ankidooom\calc4you\calc4you\calc4you\calc4you\Calc4you Rekenmachine\Calc4you Rekenmachine.csproj;x86
