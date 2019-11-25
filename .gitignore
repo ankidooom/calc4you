@@ -1,3 +1,12 @@
 
 calc4you/.vs/Calc4You/v16/Server/sqlite3/storage.ide-shm
 calc4you/.vs/Calc4You/v16/Server/sqlite3/storage.ide-wal
+*.ide-shm
+*.ide-wal
+*.appxrecipe
+*.cs
+*.xaml
+*.cache
+calc4you/Calc4you Rekenmachine/obj/x86/Debug/MainPage.xaml
+calc4you/Calc4you Rekenmachine/obj/x86/Debug/XamlSaveStateFile.xml
+calc4you/Calc4you Rekenmachine/obj/x86/Debug/MainPage.xaml
