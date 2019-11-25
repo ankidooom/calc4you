@@ -19,11 +19,11 @@
         <Button x:ConnectionId='9' x:Name="button9" Content="9" Margin="584,147,0,0" VerticalAlignment="Top" Height="74" Width="194" FontSize="45" FontWeight="Bold"                      />
         <Button x:ConnectionId='10' x:Name="button6" Content="6" Margin="584,226,0,0" VerticalAlignment="Top" Height="74" Width="194" FontSize="45" FontWeight="Bold"                      />
         <Button x:ConnectionId='11' x:Name="button3" Content="3" Margin="584,305,0,0" VerticalAlignment="Top" Height="74" Width="194" FontWeight="Bold" FontSize="45"                      />
-        <Button x:ConnectionId='12' x:Name="buttonProcent" Content="%" Margin="186,384,0,0" VerticalAlignment="Top" Height="74" Width="194" FontWeight="Bold" FontSize="45"                            />
+        <Button x:ConnectionId='12' x:Name="buttonProcent" Content="DEX/HEX" Margin="186,384,0,0" VerticalAlignment="Top" Height="74" Width="194" FontWeight="Bold" FontSize="45"                            />
         <Button x:ConnectionId='13' x:Name="buttonPunt" Content="," Margin="584,384,0,0" VerticalAlignment="Top" Height="74" Width="194" FontSize="45" FontWeight="Bold"                         />
         <TextBox x:ConnectionId='14' x:Name="TextBox" HorizontalAlignment="Left" Margin="186,35,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="107" Width="592" HorizontalTextAlignment="Center" TextAlignment="Right" FontSize="60" FontWeight="Bold"                                  />
         <Button x:ConnectionId='15' x:Name="buttonClear" Content="C" Margin="783,35,0,0" VerticalAlignment="Top" Height="107" Width="199" FontSize="60" FontWeight="Bold"                   />
-        <Button x:ConnectionId='16' x:Name="buttonDelete" Content="⌫" Margin="987,35,0,0" VerticalAlignment="Top" Height="107" Width="199" FontSize="65"/>
+        <Button x:ConnectionId='16' x:Name="buttonDelete" Content="⌫" Margin="987,35,0,0" VerticalAlignment="Top" Height="107" Width="199" FontSize="65"                           />
         <Button x:ConnectionId='17' x:Name="knopplus" Content="+" Margin="783,147,0,0" VerticalAlignment="Top" Height="74" Width="199" FontSize="45" FontWeight="Bold"                         />
         <Button x:ConnectionId='18' x:Name="buttonMin" Content="-" Margin="783,226,0,0" VerticalAlignment="Top" Height="74" Width="199" FontSize="45" FontWeight="Bold"                        />
         <Button x:ConnectionId='19' x:Name="buttonKeer" Content="*" Margin="783,305,0,0" VerticalAlignment="Top" Height="74" Width="199" FontSize="45" FontWeight="Bold"                         />

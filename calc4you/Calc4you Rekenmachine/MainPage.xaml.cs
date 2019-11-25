@@ -162,6 +162,14 @@ namespace Calc4you_Rekenmachine
             }
             else if (Knopdelen == true)
             {
+                if (getal2 == 0)
+                {
+                    TextBox.Text = "kan niet door nul delen";
+                    Knopdelen = false;
+                    getal1 = 0;
+                    getal2 = 0;
+                    return;
+                }
                 int antwoord = (getal1 / getal2);
                 TextBox.Text = Convert.ToString(antwoord);
                 getal1 = 0;
@@ -210,5 +218,32 @@ namespace Calc4you_Rekenmachine
 
             TextBox.Text = N.ToString("0");
         }
+
+        #region Delete button methode. hd
+        //* simpel "textbox remove length -1 command", hij wist steeds de karakter aan de einde van de string. Natuurlijk kijkt hij eerst of de text ''null'' is of text bevat, en voert de 'if' command uit.
+
+        private void buttonDelete_Click(object sender, RoutedEventArgs e)
+        {
+            if (TextBox.Text != "")
+            {
+                TextBox.Text = (TextBox.Text.Remove(TextBox.Text.Length - 1));
+
+            }
+        }
+        #endregion
+
+        #region Loop voor de Delete button. hd
+        //* Hij kijkt of de text in TextBox.Text null is, en zet de Delete button naar False als hij niks bevat. True als er karakters er in zijn. Dit is zo gemaakt omdat hij anders crasht als je probeert de 'length -1' command uit te voeren op een 'null string'.
+
+        private void DeleteButtonLoop()
+        {
+            if (TextBox.Text == "")
+                buttonDelete.IsEnabled = false;
+            else
+                buttonDelete.IsEnabled = true;
+
+
+        }
+#endregion
     }
 }
