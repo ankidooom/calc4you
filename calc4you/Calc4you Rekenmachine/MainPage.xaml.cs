@@ -81,7 +81,7 @@ namespace Calc4you_Rekenmachine
         #region  komma en procenten onder de cijfer van rekenmachine.
         private void buttonPunt_Click(object sender, RoutedEventArgs e)
         {
-            TextBox.Text = TextBox.Text + ",";
+            TextBox.Text = TextBox.Text + ".";
             buttonPunt.IsEnabled = false;
         }
         private void buttonProcent_Click(object sender, RoutedEventArgs e)
@@ -105,6 +105,7 @@ namespace Calc4you_Rekenmachine
             Textbox2.Text = TextBox.Text + "";
             TextBox.Text = "";
             Knopplus = true;
+            buttonPunt.IsEnabled = true;
         }
 
         public void buttonMin_Click(object sender, RoutedEventArgs e)
@@ -112,6 +113,7 @@ namespace Calc4you_Rekenmachine
             Textbox2.Text = TextBox.Text + "";
             TextBox.Text = "";
             Knopmin = true;
+            buttonPunt.IsEnabled = true;
         }
 
         public void buttonKeer_Click(object sender, RoutedEventArgs e)
@@ -119,6 +121,7 @@ namespace Calc4you_Rekenmachine
             Textbox2.Text = TextBox.Text + "";
             TextBox.Text = "";
             Knopkeer = true;
+            buttonPunt.IsEnabled = true;
         }
 
         public void buttonDelen_Click(object sender, RoutedEventArgs e)
@@ -126,19 +129,29 @@ namespace Calc4you_Rekenmachine
             Textbox2.Text = TextBox.Text + "";
             TextBox.Text = "";
             Knopdelen = true;
+            buttonPunt.IsEnabled = true;
         }
         private void mod_Click(object sender, RoutedEventArgs e)
         {
             Textbox2.Text = TextBox.Text + "";
             TextBox.Text = "";
         }
+        /// <summary>
+        /// als je de = knop clickt dan kijkt die eerst of je op de keer plus etc knop hebt geclickt
+        /// als het niet zo is dan laat hij zien wat er op dit moment staat
+        /// </summary>
         public void buttonIs(object sender, RoutedEventArgs e)
         {
-            int getal1 = Convert.ToInt32(Textbox2.Text);
-            int getal2 = Convert.ToInt32(TextBox.Text);
+            if (Knopplus == false && Knopmin == false && Knopkeer == false && Knopdelen == false)
+            {
+                TextBox.Text = Convert.ToString(TextBox.Text);
+                return;
+            }
+            decimal getal1 = decimal.Parse(Textbox2.Text);
+            decimal getal2 = decimal.Parse(TextBox.Text);
             if (Knopplus == true)
             {
-                int antwoord = (getal1 + getal2);
+                decimal antwoord = (getal1 + getal2);
                 TextBox.Text = Convert.ToString(antwoord);
                 getal1 = 0;
                 getal2 = 0;
@@ -146,7 +159,7 @@ namespace Calc4you_Rekenmachine
             }
             else if (Knopmin == true)
             {
-                int antwoord = (getal1 - getal2);
+                decimal antwoord = (getal1 - getal2);
                 TextBox.Text = Convert.ToString(antwoord);
                 getal1 = 0;
                 getal2 = 0;
@@ -154,7 +167,7 @@ namespace Calc4you_Rekenmachine
             }
             else if (Knopkeer == true)
             {
-                int antwoord = (getal1 * getal2);
+                decimal antwoord = (getal1 * getal2);
                 TextBox.Text = Convert.ToString(antwoord);
                 getal1 = 0;
                 getal2 = 0;
@@ -170,7 +183,7 @@ namespace Calc4you_Rekenmachine
                     getal2 = 0;
                     return;
                 }
-                int antwoord = (getal1 / getal2);
+                decimal antwoord = (getal1 / getal2);
                 TextBox.Text = Convert.ToString(antwoord);
                 getal1 = 0;
                 getal2 = 0;
@@ -178,7 +191,7 @@ namespace Calc4you_Rekenmachine
             }
             else
             {
-                int antwoord = (getal1 % getal2);
+                decimal antwoord = (getal1 % getal2);
                 TextBox.Text = Convert.ToString(antwoord);
                 getal1 = 0;
                 getal2 = 0;
