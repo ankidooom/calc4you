@@ -9,29 +9,30 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Height="507" Width="1380">
 
     <Grid Margin="0,0,93,0" Height="495" VerticalAlignment="Top" RenderTransformOrigin="0.013,0.033">
-        <Button x:Name="button7" Content="7" Margin="186,147,0,0" VerticalAlignment="Top" Height="74" Width="194" FontSize="45" FontWeight="Bold" Click="button7_Click"/>
-        <Button x:Name="button4" Content="4" Margin="186,226,0,0" VerticalAlignment="Top" Height="74" Width="194" FontSize="45" FontWeight="Bold" Click="button4_Click"/>
-        <Button x:Name="button1" Content="1" Margin="186,305,0,0" VerticalAlignment="Top" Height="74" Width="194" FontSize="45" FontWeight="Bold" Click="button1_Click"/>
-        <Button x:Name="button2" Content="2" Margin="385,305,0,0" VerticalAlignment="Top" Height="74" Width="194" FontSize="45" FontWeight="Bold" Click="button2_Click"/>
-        <Button x:Name="button8" Content="8" Margin="385,147,0,0" VerticalAlignment="Top" Height="74" Width="194" FontWeight="Bold" FontSize="45" Click="button8_Click"/>
-        <Button x:Name="button5" Content="5" Margin="385,226,0,0" VerticalAlignment="Top" Height="74" Width="194" FontWeight="Bold" FontSize="45" Click="button5_Click"/>
-        <Button x:Name="button0" Content="0" Margin="385,384,0,0" VerticalAlignment="Top" Height="74" Width="194" FontSize="45" FontWeight="Bold" Click="button0_Click"/>
-        <Button x:Name="button9" Content="9" Margin="584,147,0,0" VerticalAlignment="Top" Height="74" Width="194" FontSize="45" FontWeight="Bold" Click="button9_Click"/>
-        <Button x:Name="button6" Content="6" Margin="584,226,0,0" VerticalAlignment="Top" Height="74" Width="194" FontSize="45" FontWeight="Bold" Click="button6_Click"/>
-        <Button x:Name="button3" Content="3" Margin="584,305,0,0" VerticalAlignment="Top" Height="74" Width="194" FontWeight="Bold" FontSize="45" Click="button3_Click"/>
+        <Button x:Name="buttonGetallen7" Content="7" Margin="186,147,0,0" VerticalAlignment="Top" Height="74" Width="194" FontSize="45" FontWeight="Bold" Click="button7_Click"/>
+        <Button x:Name="buttonGetallen4" Content="4" Margin="186,226,0,0" VerticalAlignment="Top" Height="74" Width="194" FontSize="45" FontWeight="Bold" Click="button4_Click"/>
+        <Button x:Name="buttonGetallen1" Content="1" Margin="186,305,0,0" VerticalAlignment="Top" Height="74" Width="194" FontSize="45" FontWeight="Bold" Click="button1_Click"/>
+        <Button x:Name="buttonGetallen3" Content="2" Margin="385,305,0,0" VerticalAlignment="Top" Height="74" Width="194" FontSize="45" FontWeight="Bold" Click="button2_Click"/>
+        <Button x:Name="buttonGetallen8" Content="8" Margin="385,147,0,0" VerticalAlignment="Top" Height="74" Width="194" FontWeight="Bold" FontSize="45" Click="button8_Click"/>
+        <Button x:Name="buttonGetallen5" Content="5" Margin="385,226,0,0" VerticalAlignment="Top" Height="74" Width="194" FontWeight="Bold" FontSize="45" Click="button5_Click"/>
+        <Button x:Name="buttonGetallen0" Content="0" Margin="385,384,0,0" VerticalAlignment="Top" Height="74" Width="194" FontSize="45" FontWeight="Bold" Click="button0_Click"/>
+        <Button x:Name="buttonGetallen9" Content="9" Margin="584,147,0,0" VerticalAlignment="Top" Height="74" Width="194" FontSize="45" FontWeight="Bold" Click="button9_Click"/>
+        <Button x:Name="buttonGetallen6" Content="6" Margin="584,226,0,0" VerticalAlignment="Top" Height="74" Width="194" FontSize="45" FontWeight="Bold" Click="button6_Click"/>
+        <Button x:Name="buttonGetallen2" Content="3" Margin="584,305,0,0" VerticalAlignment="Top" Height="74" Width="194" FontWeight="Bold" FontSize="45" Click="button3_Click"/>
         <Button x:Name="buttonProcent" Content="DEX/HEX" Margin="186,384,0,0" VerticalAlignment="Top" Height="74" Width="194" FontWeight="Bold" FontSize="45" Click="buttonProcent_Click"/>
-        <Button x:Name="buttonPunt" Content="," Margin="584,384,0,0" VerticalAlignment="Top" Height="74" Width="194" FontSize="45" FontWeight="Bold" Click="buttonPunt_Click"/>
+        <Button x:Name="buttonPunt" Content="." Margin="584,384,0,0" VerticalAlignment="Top" Height="74" Width="194" FontSize="45" FontWeight="Bold" Click="buttonPunt_Click"/>
         <TextBox x:Name="TextBox" HorizontalAlignment="Left" Margin="186,35,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="107" Width="592" HorizontalTextAlignment="Center" TextAlignment="Right" FontSize="60" FontWeight="Bold" TextChanged="TextBox_TextChanged"/>
         <Button x:Name="buttonClear" Content="C" Margin="783,35,0,0" VerticalAlignment="Top" Height="107" Width="199" FontSize="60" FontWeight="Bold" Click="name_Click"/>
         <Button x:Name="buttonDelete" Content="⌫" Margin="987,35,0,0" VerticalAlignment="Top" Height="107" Width="199" FontSize="65" Click="buttonDelete_Click"/>
-        <Button x:Name="knopplus" Content="+" Margin="783,147,0,0" VerticalAlignment="Top" Height="74" Width="199" FontSize="45" FontWeight="Bold" Click="buttonPlus_Click"/>
+        <Button x:Name="buttonPlus" Content="+" Margin="783,147,0,0" VerticalAlignment="Top" Height="74" Width="199" FontSize="45" FontWeight="Bold" Click="buttonPlus_Click"/>
         <Button x:Name="buttonMin" Content="-" Margin="783,226,0,0" VerticalAlignment="Top" Height="74" Width="199" FontSize="45" FontWeight="Bold" Click="buttonMin_Click"/>
         <Button x:Name="buttonKeer" Content="*" Margin="783,305,0,0" VerticalAlignment="Top" Height="74" Width="199" FontSize="45" FontWeight="Bold" Click="buttonKeer_Click"/>
         <Button x:Name="buttonDelen" Content="/" Margin="783,384,0,0" VerticalAlignment="Top" Height="74" Width="199" FontSize="45" FontWeight="Bold" Click="buttonDelen_Click"/>
         <Button x:Name="buttenNegative" Content="+/-" Margin="987,147,0,0" VerticalAlignment="Top" Height="74" Width="199" Click="buttenNegative_Click"/>
-        <Button x:Name="Mod" Content="Mod" Margin="987,226,0,0" VerticalAlignment="Top" Height="74" Width="199" Click="mod_Click"/>
-        <Button Content="EU > Dollar" Margin="987,305,0,0" VerticalAlignment="Top" Height="74" Width="199"/>
+        <Button x:Name="buttonMod" Content="Mod" Margin="987,226,0,0" VerticalAlignment="Top" Height="74" Width="199" Click="modulo_Click"/>
+        <Button x:Name="wisselKoers" Content="€ &gt; $" Margin="987,305,0,0" VerticalAlignment="Top" Height="74" Width="99" Click="wisselKoers_Click" FontSize="30" FontWeight="Bold"/>
         <Button x:Name="button_" Content="=" Margin="987,384,0,0" VerticalAlignment="Top" Height="74" Width="199" FontSize="45" FontWeight="Bold" Click="buttonIs"/>
         <TextBox x:Name="Textbox2" HorizontalAlignment="Left" Margin="584,3,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="194" TextAlignment="Right" TextChanged="Textbox2_TextChanged"/>
+        <Button x:Name="wisselKoersdollar" Content="$ &gt; €" Margin="1091,305,0,0" VerticalAlignment="Top" Height="74" Width="95" Click="wisselKoersDollar_Click" FontSize="30" FontWeight="Bold"/>
     </Grid>
 </Page>
