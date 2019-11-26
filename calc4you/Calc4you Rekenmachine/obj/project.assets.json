@@ -8157,11 +8157,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ankid\\Documents\\GitHub\\calc4you\\calc4you\\calc4you\\Calc4you Rekenmachine\\Calc4you Rekenmachine.csproj",
+      "projectUniqueName": "C:\\Users\\ankid\\Source\\Repos\\ankidooom\\calc4you\\calc4you\\Calc4you Rekenmachine\\Calc4you Rekenmachine.csproj",
       "projectName": "Calc4you Rekenmachine",
-      "projectPath": "C:\\Users\\ankid\\Documents\\GitHub\\calc4you\\calc4you\\calc4you\\Calc4you Rekenmachine\\Calc4you Rekenmachine.csproj",
+      "projectPath": "C:\\Users\\ankid\\Source\\Repos\\ankidooom\\calc4you\\calc4you\\Calc4you Rekenmachine\\Calc4you Rekenmachine.csproj",
       "packagesPath": "C:\\Users\\ankid\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ankid\\Documents\\GitHub\\calc4you\\calc4you\\calc4you\\Calc4you Rekenmachine\\obj\\",
+      "outputPath": "C:\\Users\\ankid\\Source\\Repos\\ankidooom\\calc4you\\calc4you\\Calc4you Rekenmachine\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
