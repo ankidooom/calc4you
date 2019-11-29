@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>8220f619-1902-4098-937d-6744799e5cd5</PackageIdentityName>
     <PackageIdentityPublisher>CN=ankid</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\ankid\source\repos\ankidooom\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\ankid\Source\Repos\ankidooom\calc4you\calc4you\Calc4you Rekenmachine\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\ankid\source\repos\ankidooom\calc4you\calc4you\Calc4you Rekenmachine\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\ankid\Source\Repos\ankidooom\calc4you\calc4you\Calc4you Rekenmachine\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>C139A29809989D3422B3AD91EEB9454CA46531F2FD2E5157BD3498BE87C919C1</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>8220f619-1902-4098-937d-6744799e5cd5_1.0.0.0_x86__5w6qhqhexfd9e</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>8220f619-1902-4098-937d-6744799e5cd5_5w6qhqhexfd9e!App</RegisteredUserModeAppID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\ankid\source\repos\ankidooom\calc4you\calc4you\Calc4you Rekenmachine\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\ankid\Source\Repos\ankidooom\calc4you\calc4you\Calc4you Rekenmachine\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-26T14:13:06.146</Modified>
+      <Modified>2019-11-29T10:39:55.559</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\ankid\source\repos\ankidooom\calc4you\calc4you\Calc4you Rekenmachine\bin\x86\Debug\Calc4you Rekenmachine.exe">
+    <AppxPackagedFile Include="C:\Users\ankid\Source\Repos\ankidooom\calc4you\calc4you\Calc4you Rekenmachine\bin\x86\Debug\Calc4you Rekenmachine.exe">
       <PackagePath>entrypoint\Calc4you Rekenmachine.exe</PackagePath>
-      <Modified>2019-11-26T14:13:05.558</Modified>
+      <Modified>2019-11-29T10:39:54.897</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -46,67 +46,67 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T17:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ankid\source\repos\ankidooom\calc4you\calc4you\Calc4you Rekenmachine\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\ankid\Source\Repos\ankidooom\calc4you\calc4you\Calc4you Rekenmachine\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2019-11-26T10:56:36.496</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ankid\source\repos\ankidooom\calc4you\calc4you\Calc4you Rekenmachine\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ankid\Source\Repos\ankidooom\calc4you\calc4you\Calc4you Rekenmachine\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2019-11-26T10:56:36.450</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ankid\source\repos\ankidooom\calc4you\calc4you\Calc4you Rekenmachine\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ankid\Source\Repos\ankidooom\calc4you\calc4you\Calc4you Rekenmachine\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-11-26T10:56:36.452</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ankid\source\repos\ankidooom\calc4you\calc4you\Calc4you Rekenmachine\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ankid\Source\Repos\ankidooom\calc4you\calc4you\Calc4you Rekenmachine\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-11-26T10:56:36.453</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ankid\source\repos\ankidooom\calc4you\calc4you\Calc4you Rekenmachine\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ankid\Source\Repos\ankidooom\calc4you\calc4you\Calc4you Rekenmachine\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-11-26T10:56:36.455</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ankid\source\repos\ankidooom\calc4you\calc4you\Calc4you Rekenmachine\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\ankid\Source\Repos\ankidooom\calc4you\calc4you\Calc4you Rekenmachine\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-11-26T10:56:36.456</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ankid\source\repos\ankidooom\calc4you\calc4you\Calc4you Rekenmachine\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\ankid\Source\Repos\ankidooom\calc4you\calc4you\Calc4you Rekenmachine\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-11-26T10:56:36.457</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ankid\source\repos\ankidooom\calc4you\calc4you\Calc4you Rekenmachine\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ankid\Source\Repos\ankidooom\calc4you\calc4you\Calc4you Rekenmachine\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-11-26T10:56:36.459</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ankid\source\repos\ankidooom\calc4you\calc4you\Calc4you Rekenmachine\bin\x86\Debug\Calc4you Rekenmachine.xr.xml">
+    <AppxPackagedFile Include="C:\Users\ankid\Source\Repos\ankidooom\calc4you\calc4you\Calc4you Rekenmachine\bin\x86\Debug\Calc4you Rekenmachine.xr.xml">
       <PackagePath>Calc4you Rekenmachine.xr.xml</PackagePath>
       <Modified>2019-11-26T10:56:36.873</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ankid\source\repos\ankidooom\calc4you\calc4you\Calc4you Rekenmachine\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\ankid\Source\Repos\ankidooom\calc4you\calc4you\Calc4you Rekenmachine\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-11-26T14:13:05.275</Modified>
+      <Modified>2019-11-29T10:39:54.569</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ankid\source\repos\ankidooom\calc4you\calc4you\Calc4you Rekenmachine\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\ankid\Source\Repos\ankidooom\calc4you\calc4you\Calc4you Rekenmachine\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-11-26T14:13:05.275</Modified>
+      <Modified>2019-11-29T10:39:54.569</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2019-03-18T16:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ankid\source\repos\ankidooom\calc4you\calc4you\Calc4you Rekenmachine\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\ankid\Source\Repos\ankidooom\calc4you\calc4you\Calc4you Rekenmachine\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-11-26T10:58:04.561</Modified>
+      <Modified>2019-11-26T17:30:42.154</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ankid\source\repos\ankidooom\calc4you\calc4you\Calc4you Rekenmachine\bin\x86\Debug\Core\Calc4you Rekenmachine.exe">
+    <AppxPackagedFile Include="C:\Users\ankid\Source\Repos\ankidooom\calc4you\calc4you\Calc4you Rekenmachine\bin\x86\Debug\Core\Calc4you Rekenmachine.exe">
       <PackagePath>Calc4you Rekenmachine.exe</PackagePath>
-      <Modified>2019-11-26T14:13:06.139</Modified>
+      <Modified>2019-11-29T10:39:55.550</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

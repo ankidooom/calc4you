@@ -19,21 +19,22 @@
         <Button x:ConnectionId='9' x:Name="buttonGetallen9" Content="9" Margin="584,147,0,0" VerticalAlignment="Top" Height="74" Width="194" FontSize="45" FontWeight="Bold"                      />
         <Button x:ConnectionId='10' x:Name="buttonGetallen6" Content="6" Margin="584,226,0,0" VerticalAlignment="Top" Height="74" Width="194" FontSize="45" FontWeight="Bold"                      />
         <Button x:ConnectionId='11' x:Name="buttonGetallen2" Content="3" Margin="584,305,0,0" VerticalAlignment="Top" Height="74" Width="194" FontWeight="Bold" FontSize="45"                      />
-        <Button x:ConnectionId='12' x:Name="buttonProcent" Content="DEX/HEX" Margin="186,384,0,0" VerticalAlignment="Top" Height="74" Width="194" FontWeight="Bold" FontSize="45"                            />
-        <Button x:ConnectionId='13' x:Name="buttonPunt" Content="." Margin="584,384,0,0" VerticalAlignment="Top" Height="74" Width="194" FontSize="45" FontWeight="Bold"                         />
-        <TextBox x:ConnectionId='14' x:Name="TextBox" HorizontalAlignment="Left" Margin="186,35,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="107" Width="592" HorizontalTextAlignment="Center" TextAlignment="Right" FontSize="60" FontWeight="Bold"                                  />
-        <Button x:ConnectionId='15' x:Name="buttonClear" Content="C" Margin="783,35,0,0" VerticalAlignment="Top" Height="107" Width="199" FontSize="60" FontWeight="Bold"                   />
-        <Button x:ConnectionId='16' x:Name="buttonDelete" Content="⌫" Margin="987,35,0,0" VerticalAlignment="Top" Height="107" Width="199" FontSize="65"                           />
-        <Button x:ConnectionId='17' x:Name="buttonPlus" Content="+" Margin="783,147,0,0" VerticalAlignment="Top" Height="74" Width="199" FontSize="45" FontWeight="Bold"                         />
-        <Button x:ConnectionId='18' x:Name="buttonMin" Content="-" Margin="783,226,0,0" VerticalAlignment="Top" Height="74" Width="199" FontSize="45" FontWeight="Bold"                        />
-        <Button x:ConnectionId='19' x:Name="buttonKeer" Content="*" Margin="783,305,0,0" VerticalAlignment="Top" Height="74" Width="199" FontSize="45" FontWeight="Bold"                         />
-        <Button x:ConnectionId='20' x:Name="buttonDelen" Content="/" Margin="783,384,0,0" VerticalAlignment="Top" Height="74" Width="199" FontSize="45" FontWeight="Bold"                          />
-        <Button x:ConnectionId='21' x:Name="buttenNegative" Content="+/-" Margin="987,147,0,0" VerticalAlignment="Top" Height="74" Width="199"                             />
-        <Button x:ConnectionId='22' x:Name="buttonMod" Content="Mod" Margin="987,226,0,0" VerticalAlignment="Top" Height="74" Width="199"                     />
-        <Button x:ConnectionId='23' x:Name="wisselKoers" Content="€ &gt; $" Margin="987,305,0,0" VerticalAlignment="Top" Height="74" Width="99"                           FontSize="30" FontWeight="Bold"/>
-        <Button x:ConnectionId='24' x:Name="button_" Content="=" Margin="987,384,0,0" VerticalAlignment="Top" Height="74" Width="199" FontSize="45" FontWeight="Bold"                 />
-        <TextBox x:ConnectionId='25' x:Name="Textbox2" HorizontalAlignment="Left" Margin="584,3,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="194" TextAlignment="Right"                                   />
-        <Button x:ConnectionId='26' x:Name="wisselKoersdollar" Content="$ &gt; €" Margin="1091,305,0,0" VerticalAlignment="Top" Height="74" Width="95"                                 FontSize="30" FontWeight="Bold"/>
+        <Button x:ConnectionId='12' x:Name="buttonPunt" Content="." Margin="584,384,0,0" VerticalAlignment="Top" Height="74" Width="194" FontSize="45" FontWeight="Bold"                         />
+        <TextBox x:ConnectionId='13' x:Name="TextBox" HorizontalAlignment="Left" Margin="186,35,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="107" Width="592" HorizontalTextAlignment="Center" TextAlignment="Right" FontSize="60" FontWeight="Bold"                                  />
+        <Button x:ConnectionId='14' x:Name="buttonClear" Content="C" Margin="783,35,0,0" VerticalAlignment="Top" Height="107" Width="199" FontSize="60" FontWeight="Bold"                   />
+        <Button x:ConnectionId='15' x:Name="buttonDelete" Content="⌫" Margin="987,35,0,0" VerticalAlignment="Top" Height="107" Width="199" FontSize="65"                           />
+        <Button x:ConnectionId='16' x:Name="buttonPlus" Content="+" Margin="783,147,0,0" VerticalAlignment="Top" Height="74" Width="199" FontSize="45" FontWeight="Bold"                         />
+        <Button x:ConnectionId='17' x:Name="buttonMin" Content="-" Margin="783,226,0,0" VerticalAlignment="Top" Height="74" Width="199" FontSize="45" FontWeight="Bold"                        />
+        <Button x:ConnectionId='18' x:Name="buttonKeer" Content="*" Margin="783,305,0,0" VerticalAlignment="Top" Height="74" Width="199" FontSize="45" FontWeight="Bold"                         />
+        <Button x:ConnectionId='19' x:Name="buttonDelen" Content="/" Margin="783,384,0,0" VerticalAlignment="Top" Height="74" Width="199" FontSize="45" FontWeight="Bold"                          />
+        <Button x:ConnectionId='20' x:Name="buttenNegative" Content="+/-" Margin="987,147,0,0" VerticalAlignment="Top" Height="74" Width="199"                             />
+        <Button x:ConnectionId='21' x:Name="buttonMod" Content="Mod" Margin="987,226,0,0" VerticalAlignment="Top" Height="74" Width="199"                     />
+        <Button x:ConnectionId='22' x:Name="wisselKoers" Content="€ &gt; $" Margin="987,305,0,0" VerticalAlignment="Top" Height="74" Width="99"                           FontSize="30" FontWeight="Bold"/>
+        <Button x:ConnectionId='23' x:Name="button_" Content="=" Margin="987,384,0,0" VerticalAlignment="Top" Height="74" Width="199" FontSize="45" FontWeight="Bold"                 />
+        <TextBox x:ConnectionId='24' x:Name="Textbox2" HorizontalAlignment="Left" Margin="584,3,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="194" TextAlignment="Right"                                   />
+        <Button x:ConnectionId='25' x:Name="wisselKoersdollar" Content="$ &gt; €" Margin="1091,305,0,0" VerticalAlignment="Top" Height="74" Width="95"                                 FontSize="30" FontWeight="Bold"/>
+        <Button x:ConnectionId='26' x:Name="buttonBin" Content="BIN" Margin="186,384,0,0" VerticalAlignment="Top" Height="74" Width="92" FontWeight="Bold" FontSize="30"                        />
+        <Button x:ConnectionId='27' x:Name="buttonHex" Content="HEX" Margin="283,384,0,0" VerticalAlignment="Top" Height="74" Width="97" FontSize="30" FontWeight="Bold"                        />
     </Grid>
 </Page>
 
