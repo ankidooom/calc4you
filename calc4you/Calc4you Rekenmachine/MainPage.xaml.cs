@@ -410,7 +410,7 @@ namespace Calc4you_Rekenmachine
             {
                 TextBox.Text += "0";
             }
-            if (getal1 <= 4)
+            if (getal1 >= 4)
             {
                 getal1 = getal1 - 4;
                 TextBox.Text += "1";
@@ -450,168 +450,196 @@ namespace Calc4you_Rekenmachine
             gedeeld = getal1 / 16;
             keer = 16 * gedeeld;
             rest = getal1 - keer;
-            this.TextBox.Text += gedeeld;
             while (rest != 0 && gedeeld != 0)
             {
                 if (rest == 0)
                 {
                     this.TextBox.Text += 0;
                     rest = 0;
-                    if (gedeeld == 0)
-                    {
-                        this.TextBox.Text += 0;
-                        gedeeld = 0;
-                    }
                 }
-                else if (rest == 1)
+                if (gedeeld == 0)
                 {
+                    this.TextBox.Text += 0;
+                    gedeeld = 0;
+                }
+                if (rest == 1)
+                {
+
                     this.TextBox.Text += 1;
                     rest = 0;
-                    if (gedeeld == 1)
-                    {
-                        this.TextBox.Text += 1;
-                        gedeeld = 0;
-                    }
                 }
-                else if (rest == 2)
+                if (gedeeld == 1)
+                {
+                    this.TextBox.Text += 1;
+                    gedeeld = 0;
+                }
+                if (rest == 2)
                 {
                     this.TextBox.Text += 2;
                     rest = 0;
-                    if (gedeeld == 2)
-                    {
-                        this.TextBox.Text += 2;
-                        gedeeld = 0;
-                    }
                 }
-                else if (rest == 3)
+                if (gedeeld == 2)
                 {
+                    this.TextBox.Text += 2;
+                    gedeeld = 0;
+                }
+                if (rest == 3)
+                {
+
                     this.TextBox.Text += 3;
                     rest = 0;
-                    if (gedeeld == 3)
-                    {
-                        this.TextBox.Text += 3;
-                        gedeeld = 0;
-                    }
+
                 }
-                else if (rest == 4)
+                if (gedeeld == 3)
                 {
+                    this.TextBox.Text += 3;
+                    gedeeld = 0;
+                }
+                if (rest == 4)
+                {
+
                     this.TextBox.Text += 4;
                     rest = 0;
-                    if (gedeeld == 4)
-                    {
-                        this.TextBox.Text += 4;
-                        gedeeld = 0;
-                    }
+
                 }
-                else if (rest == 5)
+                if (gedeeld == 4)
                 {
+                    this.TextBox.Text += 4;
+                    gedeeld = 0;
+                }
+                if (rest == 5)
+                {
+
                     this.TextBox.Text += 5;
                     rest = 0;
-                    if (gedeeld == 5)
-                    {
-                        this.TextBox.Text += 5;
-                        gedeeld = 0;
-                    }
+
                 }
-                else if (rest == 6)
+                if (gedeeld == 5)
                 {
+                    this.TextBox.Text += 5;
+                    gedeeld = 0;
+                }
+                if (rest == 6)
+                {
+
                     this.TextBox.Text += 6;
                     rest = 0;
-                    if (gedeeld == 6)
-                    {
-                        this.TextBox.Text += 6;
-                        gedeeld = 0;
-                    }
                 }
-                else if (rest == 7)
+                if (gedeeld == 6)
                 {
+                    this.TextBox.Text += 6;
+                    gedeeld = 0;
+                }
+                if (rest == 7)
+                {
+
                     this.TextBox.Text += 7;
                     rest = 0;
-                    if (gedeeld == 7)
-                    {
-                        this.TextBox.Text += 7;
-                        gedeeld = 0;
-                    }
+
                 }
-                else if (rest == 8)
+                if (gedeeld == 7)
                 {
+                    this.TextBox.Text += 7;
+                    gedeeld = 0;
+                }
+                if (rest == 8)
+                {
+
                     this.TextBox.Text += 8;
                     rest = 0;
-                    if (gedeeld == 8)
-                    {
-                        this.TextBox.Text += 8;
-                        gedeeld = 0;
-                    }
+
                 }
-                else if (rest == 9)
+                if (gedeeld == 8)
                 {
+                    this.TextBox.Text += 8;
+                    gedeeld = 0;
+                }
+                if (rest == 9)
+                {
+
                     this.TextBox.Text += 9;
                     rest = 0;
-                    if (gedeeld == 9)
-                    {
-                        this.TextBox.Text += 9;
-                        gedeeld = 0;
-                    }
+
                 }
-                else if (rest == 10)
+                if (gedeeld == 9)
                 {
-                    if (gedeeld == 10)
-                    {
-                        this.TextBox.Text += "A";
-                    }
+                    this.TextBox.Text += 9;
+                    gedeeld = 0;
+                }
+                if (rest == 10)
+                {
+
                     this.TextBox.Text += "A";
                     rest = 0;
+                    
+                }
+                if (gedeeld == 10)
+                {
+                    this.TextBox.Text += "A";
                     gedeeld = 0;
                 }
-                else if (rest == 11)
+                if (rest == 11)
                 {
-                    if (gedeeld == 11)
-                    {
-                        this.TextBox.Text += "B";
-                    }
+
                     this.TextBox.Text += "B";
                     rest = 0;
+                    
+                }
+                if (gedeeld == 11)
+                {
+                    this.TextBox.Text += "B";
                     gedeeld = 0;
                 }
-                else if (rest == 12)
+                if (rest == 12)
                 {
-                    if (gedeeld == 12)
-                    {
-                        this.TextBox.Text += "C";
-                    }
+
                     this.TextBox.Text += "C";
                     rest = 0;
+                    
+                }
+                 if (gedeeld == 12)
+                {
+                    this.TextBox.Text += "C";
                     gedeeld = 0;
                 }
-                else if (rest == 13)
+                if (rest == 13)
                 {
-                    if (gedeeld == 13)
-                    {
-                        this.TextBox.Text += "D";
-                    }
+
                     this.TextBox.Text += "D";
                     rest = 0;
+                    
+                }
+                if (gedeeld == 13)
+                {
+                    this.TextBox.Text += "D";
                     gedeeld = 0;
                 }
-                else if (rest == 14)
+                if (rest == 14)
                 {
-                    if (gedeeld == 14)
-                    {
-                        this.TextBox.Text += "E";
-                    }
+
                     this.TextBox.Text += "E";
                     rest = 0;
+                    
+                }
+                if (gedeeld == 14)
+                {
+                    this.TextBox.Text += "E";
                     gedeeld = 0;
                 }
-                else if (rest == 15)
+                if (rest == 15)
                 {
-                    if (gedeeld == 15)
-                    {
-                        this.TextBox.Text += "F";
-                    }
                     this.TextBox.Text += "F";
                     rest = 0;
+                    
+                }
+                if (gedeeld == 15)
+                {
+                    this.TextBox.Text += "F";
                     gedeeld = 0;
+                }
+                if (getal1 >=256)
+                {
+                    TextBox.Text = "dat is iets te hoog";
                 }
             }
         }
