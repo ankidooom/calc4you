@@ -363,285 +363,30 @@ namespace Calc4you_Rekenmachine
         #region Binair nummers en hexdec
         private void buttonBin_Click(object sender, RoutedEventArgs e)
         {
-            int getal1 = Convert.ToInt32(TextBox.Text);
-            TextBox.Text = "";
-            if (getal1 >= 128)
-            {
-                getal1 = getal1 - 128;
-                TextBox.Text += "1";
-            }
-            else
-            {
-                TextBox.Text += "0";
-            }
-            if (getal1 >= 64)
-            {
-                getal1 = getal1 - 64;
-                TextBox.Text += "1";
-            }
-            else
-            {
-                TextBox.Text += "0";
-            }
-            if (getal1 >= 32)
-            {
-                getal1 = getal1 - 32;
-                TextBox.Text += "1";
-            }
-            else
-            {
-                TextBox.Text += "0";
-            }
-            if (getal1 >= 16)
-            {
-                getal1 = getal1 - 16;
-                TextBox.Text += "1";
-            }
-            else
-            {
-                TextBox.Text += "0";
-            }
-            if (getal1 >= 8)
-            {
-                getal1 = getal1 - 8;
-                TextBox.Text += "1";
-            }
-            else
-            {
-                TextBox.Text += "0";
-            }
-            if (getal1 >= 4)
-            {
-                getal1 = getal1 - 4;
-                TextBox.Text += "1";
-            }
-            else
-            {
-                TextBox.Text += "0";
-            }
-            if (getal1 >= 2)
-            {
-                getal1 = getal1 - 2;
-                TextBox.Text += "1";
-            }
-            else
-            {
-                TextBox.Text += "0";
-            }
-            if (getal1 >= 1)
-            {
-                getal1 = getal1 - 1;
-                TextBox.Text += "1";
-            }
-            else
-            {
-                TextBox.Text += "0";
-            }
+            int num;
+            int quot;
+            string rem = "";
 
+            num = Convert.ToInt32(TextBox.Text);
+            while (num >= 1)
+            {
+                quot = num / 2;
+                rem += (num % 2).ToString();
+                num = quot;
+            }
+            string bin = "";
+            for (int i = rem.Length - 1; i >= 0; i--)
+            {
+                bin = bin + rem[i];
+            }
+            TextBox.Text = bin;
         }
         private void buttonHex_Click(object sender, RoutedEventArgs e)
         {
-            int getal1 = Convert.ToInt32(TextBox.Text);
-            TextBox.Text = "";
-            int gedeeld;
-            int keer;
-            int rest;
+            int antwoord = Convert.ToInt32(TextBox.Text);
+            string eind = DecimalToHexadecimal(antwoord);
+            TextBox.Text = eind;
 
-            gedeeld = getal1 / 16;
-            keer = 16 * gedeeld;
-            rest = getal1 - keer;
-            while (rest != 0 && gedeeld != 0)
-            {
-                if (rest == 0)
-                {
-                    this.TextBox.Text += 0;
-                    rest = 0;
-                }
-                if (gedeeld == 0)
-                {
-                    this.TextBox.Text += 0;
-                    gedeeld = 0;
-                }
-                if (rest == 1)
-                {
-
-                    this.TextBox.Text += 1;
-                    rest = 0;
-                }
-                if (gedeeld == 1)
-                {
-                    this.TextBox.Text += 1;
-                    gedeeld = 0;
-                }
-                if (rest == 2)
-                {
-                    this.TextBox.Text += 2;
-                    rest = 0;
-                }
-                if (gedeeld == 2)
-                {
-                    this.TextBox.Text += 2;
-                    gedeeld = 0;
-                }
-                if (rest == 3)
-                {
-
-                    this.TextBox.Text += 3;
-                    rest = 0;
-
-                }
-                if (gedeeld == 3)
-                {
-                    this.TextBox.Text += 3;
-                    gedeeld = 0;
-                }
-                if (rest == 4)
-                {
-
-                    this.TextBox.Text += 4;
-                    rest = 0;
-
-                }
-                if (gedeeld == 4)
-                {
-                    this.TextBox.Text += 4;
-                    gedeeld = 0;
-                }
-                if (rest == 5)
-                {
-
-                    this.TextBox.Text += 5;
-                    rest = 0;
-
-                }
-                if (gedeeld == 5)
-                {
-                    this.TextBox.Text += 5;
-                    gedeeld = 0;
-                }
-                if (rest == 6)
-                {
-
-                    this.TextBox.Text += 6;
-                    rest = 0;
-                }
-                if (gedeeld == 6)
-                {
-                    this.TextBox.Text += 6;
-                    gedeeld = 0;
-                }
-                if (rest == 7)
-                {
-
-                    this.TextBox.Text += 7;
-                    rest = 0;
-
-                }
-                if (gedeeld == 7)
-                {
-                    this.TextBox.Text += 7;
-                    gedeeld = 0;
-                }
-                if (rest == 8)
-                {
-
-                    this.TextBox.Text += 8;
-                    rest = 0;
-
-                }
-                if (gedeeld == 8)
-                {
-                    this.TextBox.Text += 8;
-                    gedeeld = 0;
-                }
-                if (rest == 9)
-                {
-
-                    this.TextBox.Text += 9;
-                    rest = 0;
-
-                }
-                if (gedeeld == 9)
-                {
-                    this.TextBox.Text += 9;
-                    gedeeld = 0;
-                }
-                if (rest == 10)
-                {
-
-                    this.TextBox.Text += "A";
-                    rest = 0;
-                    
-                }
-                if (gedeeld == 10)
-                {
-                    this.TextBox.Text += "A";
-                    gedeeld = 0;
-                }
-                if (rest == 11)
-                {
-
-                    this.TextBox.Text += "B";
-                    rest = 0;
-                    
-                }
-                if (gedeeld == 11)
-                {
-                    this.TextBox.Text += "B";
-                    gedeeld = 0;
-                }
-                if (rest == 12)
-                {
-
-                    this.TextBox.Text += "C";
-                    rest = 0;
-                    
-                }
-                 if (gedeeld == 12)
-                {
-                    this.TextBox.Text += "C";
-                    gedeeld = 0;
-                }
-                if (rest == 13)
-                {
-
-                    this.TextBox.Text += "D";
-                    rest = 0;
-                    
-                }
-                if (gedeeld == 13)
-                {
-                    this.TextBox.Text += "D";
-                    gedeeld = 0;
-                }
-                if (rest == 14)
-                {
-
-                    this.TextBox.Text += "E";
-                    rest = 0;
-                    
-                }
-                if (gedeeld == 14)
-                {
-                    this.TextBox.Text += "E";
-                    gedeeld = 0;
-                }
-                if (rest == 15)
-                {
-                    this.TextBox.Text += "F";
-                    rest = 0;
-                    
-                }
-                if (gedeeld == 15)
-                {
-                    this.TextBox.Text += "F";
-                    gedeeld = 0;
-                }
-                if (getal1 >=256)
-                {
-                    TextBox.Text = "dat is iets te hoog";
-                }
-            }
         }
             
             #endregion
@@ -657,8 +402,33 @@ namespace Calc4you_Rekenmachine
             {
 
             }
-            #endregion
+        #endregion
+        #region methode
+        #region dec naar hex
+        // https://www.programmingalgorithms.com/algorithm/decimal-to-hexadecimal/
+        public static string DecimalToHexadecimal(int dec)
+        {
+            if (dec < 1) return "0";
 
-        
-     }
+            int hex = dec;
+            string hexStr = string.Empty;
+
+            while (dec > 0)
+            {
+                hex = dec % 16;
+
+                if (hex < 10)
+                    hexStr = hexStr.Insert(0, Convert.ToChar(hex + 48).ToString());
+                else
+                    hexStr = hexStr.Insert(0, Convert.ToChar(hex + 55).ToString());
+
+                dec /= 16;
+            }
+
+            return hexStr;
+        }
+        #endregion
+        #endregion
+
+    }
 } 
