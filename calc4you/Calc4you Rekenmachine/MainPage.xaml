@@ -6,7 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Height="507" Width="1380">
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Height="502" Width="1719">
 
     <Grid Margin="0,0,93,0" Height="495" VerticalAlignment="Top" RenderTransformOrigin="0.013,0.033">
         <Button x:Name="buttonGetallen7" Content="7" Margin="186,147,0,0" VerticalAlignment="Top" Height="74" Width="194" FontSize="45" FontWeight="Bold" Click="button7_Click"/>
@@ -27,13 +27,15 @@
         <Button x:Name="buttonMin" Content="-" Margin="783,226,0,0" VerticalAlignment="Top" Height="74" Width="199" FontSize="45" FontWeight="Bold" Click="buttonMin_Click"/>
         <Button x:Name="buttonKeer" Content="*" Margin="783,305,0,0" VerticalAlignment="Top" Height="74" Width="199" FontSize="45" FontWeight="Bold" Click="buttonKeer_Click"/>
         <Button x:Name="buttonDelen" Content="/" Margin="783,384,0,0" VerticalAlignment="Top" Height="74" Width="199" FontSize="45" FontWeight="Bold" Click="buttonDelen_Click"/>
-        <Button x:Name="buttenNegative" Content="+/-" Margin="987,147,0,0" VerticalAlignment="Top" Height="74" Width="199" Click="buttenNegative_Click"/>
-        <Button x:Name="buttonMod" Content="Mod" Margin="987,226,0,0" VerticalAlignment="Top" Height="74" Width="199" Click="modulo_Click"/>
+        <Button x:Name="buttenNegative" Content="+/-" Margin="987,147,0,0" VerticalAlignment="Top" Height="74" Width="199" Click="buttenNegative_Click" FontSize="40" FontWeight="Bold"/>
+        <Button x:Name="buttonMod" Content="Mod" Margin="987,226,0,0" VerticalAlignment="Top" Height="74" Width="199" Click="modulo_Click" FontWeight="Bold" FontSize="35"/>
         <Button x:Name="wisselKoers" Content="€ &gt; $" Margin="987,305,0,0" VerticalAlignment="Top" Height="74" Width="99" Click="wisselKoers_Click" FontSize="30" FontWeight="Bold"/>
         <Button x:Name="button_" Content="=" Margin="987,384,0,0" VerticalAlignment="Top" Height="74" Width="199" FontSize="45" FontWeight="Bold" Click="buttonIs"/>
         <TextBox x:Name="Textbox2" HorizontalAlignment="Left" Margin="584,3,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="194" TextAlignment="Right" TextChanged="Textbox2_TextChanged"/>
         <Button x:Name="wisselKoersdollar" Content="$ &gt; €" Margin="1091,305,0,0" VerticalAlignment="Top" Height="74" Width="95" Click="wisselKoersDollar_Click" FontSize="30" FontWeight="Bold"/>
         <Button x:Name="buttonBin" Content="BIN" Margin="186,384,0,0" VerticalAlignment="Top" Height="74" Width="92" FontWeight="Bold" FontSize="30" Click="buttonBin_Click"/>
         <Button x:Name="buttonHex" Content="HEX" Margin="283,384,0,0" VerticalAlignment="Top" Height="74" Width="97" FontSize="30" FontWeight="Bold" Click="buttonHex_Click"/>
+        <TextBox x:Name="Textbox3" HorizontalAlignment="Left" Margin="1244,0,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Center" Width="383" Height="423" FontSize="25" FontWeight="Bold" TextAlignment="Right" TextChanged="TextBox_TextChanged_1" IsColorFontEnabled="False"/>
+        <Button Content="Button" Margin="10,147,0,0" VerticalAlignment="Top" Height="74" Width="150" Click="Button_Click"/>
     </Grid>
 </Page>

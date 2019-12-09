@@ -38,6 +38,7 @@
       <RootProperty Name="TextAlignment" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="FontWeight" />
+      <RootProperty Name="IsColorFontEnabled" />
       <RootEvent Name="TextChanged" />
     </RootType>
     <RootType FullName="Calc4you_Rekenmachine.MainPage" />
