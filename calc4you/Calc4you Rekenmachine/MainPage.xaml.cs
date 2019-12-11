@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
+using System.Data;
 using System.IO;
 using System.Linq;
 using System.Net;
@@ -25,11 +27,13 @@ namespace Calc4you_Rekenmachine
     /// </summary>
     public sealed partial class MainPage : Page
     {
+
         bool Knopplus;
         bool Knopmin;
         bool Knopkeer;
         bool Knopdelen;
         bool Knopmod;
+        string connection = "Data Source=calculater.database.windows.net;Initial Catalog=Calculater;User ID=Calculater;Password=Yolo123!;Connect Timeout=60;Encrypt=True;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
         public MainPage()
         {
             this.InitializeComponent();
@@ -153,7 +157,7 @@ namespace Calc4you_Rekenmachine
         /// </summary>
 
         public void buttonIs(object sender, RoutedEventArgs e)
-        {
+        { 
             TextBox.Text = TextBox.Text.Replace("€", "");
             TextBox.Text = TextBox.Text.Replace("$", "");
             Textbox2.Text = Textbox2.Text.Replace("€", "");
@@ -178,10 +182,25 @@ namespace Calc4you_Rekenmachine
             #endregion
             decimal getal1 = decimal.Parse(Textbox2.Text);
             decimal getal2 = decimal.Parse(TextBox.Text);
+
+
             if (Knopplus == true)
             {
                 decimal antwoord = (getal1 + getal2);
                 TextBox.Text = Convert.ToString(antwoord);
+                InitializeComponent();
+                SqlConnection conn = new SqlConnection();
+                conn.ConnectionString = connection;
+                conn.Open();
+                var command =
+                    new SqlCommand("INSERT INTO [dbo].[Berekeningen](Antwoord , Getal1, Getal2, Operator, isTeken) VALUES (@Antwoord, @Getal1, @Getal2, @Operator, @isTeken);", conn);
+                command.Parameters.AddWithValue("@Antwoord  ", antwoord);
+                command.Parameters.AddWithValue("@Getal1", getal1);
+                command.Parameters.AddWithValue("@Getal2", getal2);
+                command.Parameters.AddWithValue("@Operator", "+");
+                command.Parameters.AddWithValue("@isTeken", "=");
+                command.ExecuteReader();
+                conn.Close();
                 getal1 = 0;
                 getal2 = 0;
                 Knopplus = false;
@@ -190,6 +209,19 @@ namespace Calc4you_Rekenmachine
             {
                 decimal antwoord = (getal1 - getal2);
                 TextBox.Text = Convert.ToString(antwoord);
+                InitializeComponent();
+                SqlConnection conn = new SqlConnection();
+                conn.ConnectionString = connection;
+                conn.Open();
+                var command =
+                    new SqlCommand("INSERT INTO [dbo].[Berekeningen](Antwoord , Getal1, Getal2, Operator, isTeken) VALUES (@Antwoord, @Getal1, @Getal2, @Operator, @isTeken);", conn);
+                command.Parameters.AddWithValue("@Antwoord  ", antwoord);
+                command.Parameters.AddWithValue("@Getal1", getal1);
+                command.Parameters.AddWithValue("@Getal2", getal2);
+                command.Parameters.AddWithValue("@Operator", "-");
+                command.Parameters.AddWithValue("@isTeken", "=");
+                command.ExecuteReader();
+                conn.Close();
                 getal1 = 0;
                 getal2 = 0;
                 Knopmin = false;
@@ -198,6 +230,19 @@ namespace Calc4you_Rekenmachine
             {
                 decimal antwoord = (getal1 * getal2);
                 TextBox.Text = Convert.ToString(antwoord);
+                InitializeComponent();
+                SqlConnection conn = new SqlConnection();
+                conn.ConnectionString = connection;
+                conn.Open();
+                var command =
+                    new SqlCommand("INSERT INTO [dbo].[Berekeningen](Antwoord , Getal1, Getal2, Operator, isTeken) VALUES (@Antwoord, @Getal1, @Getal2, @Operator, @isTeken);", conn);
+                command.Parameters.AddWithValue("@Antwoord  ", antwoord);
+                command.Parameters.AddWithValue("@Getal1", getal1);
+                command.Parameters.AddWithValue("@Getal2", getal2);
+                command.Parameters.AddWithValue("@Operator", "*");
+                command.Parameters.AddWithValue("@isTeken", "=");
+                command.ExecuteReader();
+                conn.Close();
                 getal1 = 0;
                 getal2 = 0;
                 Knopkeer = false;
@@ -214,6 +259,19 @@ namespace Calc4you_Rekenmachine
                 }
                 decimal antwoord = (getal1 / getal2);
                 TextBox.Text = Convert.ToString(antwoord);
+                InitializeComponent();
+                SqlConnection conn = new SqlConnection();
+                conn.ConnectionString = connection;
+                conn.Open();
+                var command =
+                    new SqlCommand("INSERT INTO [dbo].[Berekeningen](Antwoord , Getal1, Getal2, Operator, isTeken) VALUES (@Antwoord, @Getal1, @Getal2, @Operator, @isTeken);", conn);
+                command.Parameters.AddWithValue("@Antwoord  ", antwoord);
+                command.Parameters.AddWithValue("@Getal1", getal1);
+                command.Parameters.AddWithValue("@Getal2", getal2);
+                command.Parameters.AddWithValue("@Operator", "/");
+                command.Parameters.AddWithValue("@isTeken", "=");
+                command.ExecuteReader();
+                conn.Close();
                 getal1 = 0;
                 getal2 = 0;
                 Knopdelen = false;
@@ -222,10 +280,24 @@ namespace Calc4you_Rekenmachine
             {
                 decimal antwoord = (getal1 % getal2);
                 TextBox.Text = Convert.ToString(antwoord);
+                InitializeComponent();
+                SqlConnection conn = new SqlConnection();
+                conn.ConnectionString = connection;
+                conn.Open();
+                var command =
+                    new SqlCommand("INSERT INTO [dbo].[Berekeningen](Antwoord , Getal1, Getal2, Operator, isTeken) VALUES (@Antwoord, @Getal1, @Getal2, @isTeken);", conn);
+                command.Parameters.AddWithValue("@Antwoord  ", antwoord);
+                command.Parameters.AddWithValue("@Getal1", getal1);
+                command.Parameters.AddWithValue("@Getal2", getal2);
+                command.Parameters.AddWithValue("@Operator", "%");
+                command.Parameters.AddWithValue("@isTeken", "=");
+                command.ExecuteReader();
+                conn.Close();
                 getal1 = 0;
                 getal2 = 0;
                 Knopmod = false;
             }
+
         }
         #endregion
 
@@ -388,23 +460,27 @@ namespace Calc4you_Rekenmachine
             TextBox.Text = eind;
 
         }
-            
-            #endregion
 
-            #region Textboxes aka de output.
-            public void TextBox_TextChanged(object sender, TextChangedEventArgs e)
-            {
-
-            }
-
-
-            public void Textbox2_TextChanged(object sender, TextChangedEventArgs e)
-            {
-
-            }
         #endregion
-        #region methode
-        #region dec naar hex
+
+        #region Textboxes aka de output.
+        public void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+
+        public void Textbox2_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+        private void TextBox_TextChanged_1(object sender, TextChangedEventArgs e)
+        {
+
+        }
+        #endregion
+
+        #region statics voor dec hex en Database
         // https://www.programmingalgorithms.com/algorithm/decimal-to-hexadecimal/
         public static string DecimalToHexadecimal(int dec)
         {
@@ -427,8 +503,35 @@ namespace Calc4you_Rekenmachine
 
             return hexStr;
         }
-        #endregion
+
         #endregion
 
+        #region sql connecten
+        public void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Textbox3.Text = "";
+            InitializeComponent();
+            SqlConnection con = new SqlConnection();
+            con.ConnectionString = connection;
+            SqlCommand cmd = new SqlCommand("SELECT TOP (10) [Getal1], [Operator], [Getal2], [isTeken], [Antwoord] FROM[dbo].[Berekeningen]", con);
+
+            con.Open();
+            
+            using (var reader = cmd.ExecuteReader())
+            {
+                 while (reader.Read())
+                 {
+                     Textbox3.Text += reader[0].ToString();
+                     Textbox3.Text += reader[1].ToString();
+                     Textbox3.Text += reader[2].ToString();
+                     Textbox3.Text += reader[3].ToString();
+                     Textbox3.Text += reader[4].ToString();
+                     Textbox3.Text += "\r\n";
+                 }
+
+            }
+            con.Close();
+        } 
+        #endregion
     }
 } 
