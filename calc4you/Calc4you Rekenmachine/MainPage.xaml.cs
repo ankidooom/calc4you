@@ -33,6 +33,7 @@ namespace Calc4you_Rekenmachine
         bool Knopkeer;
         bool Knopdelen;
         bool Knopmod;
+        string connection = "Data Source=calculater.database.windows.net;Initial Catalog=Calculater;User ID=Calculater;Password=Yolo123!;Connect Timeout=60;Encrypt=True;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
         public MainPage()
         {
             this.InitializeComponent();
@@ -156,8 +157,7 @@ namespace Calc4you_Rekenmachine
         /// </summary>
 
         public void buttonIs(object sender, RoutedEventArgs e)
-        {
-
+        { 
             TextBox.Text = TextBox.Text.Replace("€", "");
             TextBox.Text = TextBox.Text.Replace("$", "");
             Textbox2.Text = Textbox2.Text.Replace("€", "");
@@ -190,7 +190,7 @@ namespace Calc4you_Rekenmachine
                 TextBox.Text = Convert.ToString(antwoord);
                 InitializeComponent();
                 SqlConnection conn = new SqlConnection();
-                conn.ConnectionString = "Data Source=calculater.database.windows.net;Initial Catalog=Calculater;User ID=Calculater;Password=Yolo123!;Connect Timeout=60;Encrypt=True;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+                conn.ConnectionString = connection;
                 conn.Open();
                 var command =
                     new SqlCommand("INSERT INTO [dbo].[Berekeningen](Antwoord , Getal1, Getal2, Operator, isTeken) VALUES (@Antwoord, @Getal1, @Getal2, @Operator, @isTeken);", conn);
@@ -211,7 +211,7 @@ namespace Calc4you_Rekenmachine
                 TextBox.Text = Convert.ToString(antwoord);
                 InitializeComponent();
                 SqlConnection conn = new SqlConnection();
-                conn.ConnectionString = "Data Source=calculater.database.windows.net;Initial Catalog=Calculater;User ID=Calculater;Password=Yolo123!;Connect Timeout=60;Encrypt=True;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+                conn.ConnectionString = connection;
                 conn.Open();
                 var command =
                     new SqlCommand("INSERT INTO [dbo].[Berekeningen](Antwoord , Getal1, Getal2, Operator, isTeken) VALUES (@Antwoord, @Getal1, @Getal2, @Operator, @isTeken);", conn);
@@ -232,7 +232,7 @@ namespace Calc4you_Rekenmachine
                 TextBox.Text = Convert.ToString(antwoord);
                 InitializeComponent();
                 SqlConnection conn = new SqlConnection();
-                conn.ConnectionString = "Data Source=calculater.database.windows.net;Initial Catalog=Calculater;User ID=Calculater;Password=Yolo123!;Connect Timeout=60;Encrypt=True;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+                conn.ConnectionString = connection;
                 conn.Open();
                 var command =
                     new SqlCommand("INSERT INTO [dbo].[Berekeningen](Antwoord , Getal1, Getal2, Operator, isTeken) VALUES (@Antwoord, @Getal1, @Getal2, @Operator, @isTeken);", conn);
@@ -261,7 +261,7 @@ namespace Calc4you_Rekenmachine
                 TextBox.Text = Convert.ToString(antwoord);
                 InitializeComponent();
                 SqlConnection conn = new SqlConnection();
-                conn.ConnectionString = "Data Source=calculater.database.windows.net;Initial Catalog=Calculater;User ID=Calculater;Password=Yolo123!;Connect Timeout=60;Encrypt=True;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+                conn.ConnectionString = connection;
                 conn.Open();
                 var command =
                     new SqlCommand("INSERT INTO [dbo].[Berekeningen](Antwoord , Getal1, Getal2, Operator, isTeken) VALUES (@Antwoord, @Getal1, @Getal2, @Operator, @isTeken);", conn);
@@ -282,7 +282,7 @@ namespace Calc4you_Rekenmachine
                 TextBox.Text = Convert.ToString(antwoord);
                 InitializeComponent();
                 SqlConnection conn = new SqlConnection();
-                conn.ConnectionString = "Data Source=calculater.database.windows.net;Initial Catalog=Calculater;User ID=Calculater;Password=Yolo123!;Connect Timeout=60;Encrypt=True;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+                conn.ConnectionString = connection;
                 conn.Open();
                 var command =
                     new SqlCommand("INSERT INTO [dbo].[Berekeningen](Antwoord , Getal1, Getal2, Operator, isTeken) VALUES (@Antwoord, @Getal1, @Getal2, @isTeken);", conn);
@@ -507,32 +507,30 @@ namespace Calc4you_Rekenmachine
         #endregion
 
         #region sql connecten
-        private void Button_Click(object sender, RoutedEventArgs e)
+        public void Button_Click(object sender, RoutedEventArgs e)
         {
+            Textbox3.Text = "";
             InitializeComponent();
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = "Data Source=calculater.database.windows.net;Initial Catalog=Calculater;User ID=Calculater;Password=Yolo123!;Connect Timeout=60;Encrypt=True;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+            con.ConnectionString = connection;
             SqlCommand cmd = new SqlCommand("SELECT TOP (10) [Getal1], [Operator], [Getal2], [isTeken], [Antwoord] FROM[dbo].[Berekeningen]", con);
 
             con.Open();
             
             using (var reader = cmd.ExecuteReader())
             {
-                while (true)
-                {
-                    while (reader.Read())
-                    {
-                        Textbox3.Text += reader[0].ToString();
-                        Textbox3.Text += reader[1].ToString();
-                        Textbox3.Text += reader[2].ToString();
-                        Textbox3.Text += reader[3].ToString();
-                        Textbox3.Text += reader[4].ToString();
-                        Textbox3.Text += "\r\n";
-                    }
-                }
-                
+                 while (reader.Read())
+                 {
+                     Textbox3.Text += reader[0].ToString();
+                     Textbox3.Text += reader[1].ToString();
+                     Textbox3.Text += reader[2].ToString();
+                     Textbox3.Text += reader[3].ToString();
+                     Textbox3.Text += reader[4].ToString();
+                     Textbox3.Text += "\r\n";
+                 }
+
             }
-                con.Close();
+            con.Close();
         } 
         #endregion
     }
