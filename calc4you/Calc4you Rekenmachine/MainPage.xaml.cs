@@ -33,7 +33,7 @@ namespace Calc4you_Rekenmachine
         bool Knopkeer;
         bool Knopdelen;
         bool Knopmod;
-        string connection = "Data Source=calculater.database.windows.net;Initial Catalog=Calculater;User ID=Calculater;Password=Yolo123!;Connect Timeout=60;Encrypt=True;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+        public string connection = "Data Source=calculater.database.windows.net;User ID=calculater;Password=********;Connect Timeout=30;Encrypt=True;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
         public MainPage()
         {
             this.InitializeComponent();
@@ -157,11 +157,34 @@ namespace Calc4you_Rekenmachine
         /// </summary>
 
         public void buttonIs(object sender, RoutedEventArgs e)
-        { 
+        {
+            #region zorgt ervoor dat de dollar en euro teken weg gaan.
             TextBox.Text = TextBox.Text.Replace("€", "");
             TextBox.Text = TextBox.Text.Replace("$", "");
             Textbox2.Text = Textbox2.Text.Replace("€", "");
             Textbox2.Text = Textbox2.Text.Replace("$", "");
+            #endregion
+
+            #region laat zien in textbox3 de database van de laatse 10.
+            Textbox3.Text = "";
+            SqlConnection con = new SqlConnection();
+            con.ConnectionString = connection;
+            SqlCommand cmd = new SqlCommand("SELECT TOP 10 * FROM [dbo].[Berekeningen] ORDER BY [IDname] DESC;", con);
+            con.Open();
+            using (var reader = cmd.ExecuteReader())
+            {
+                while (reader.Read())
+                {
+                    Textbox3.Text += reader[0].ToString();
+                    Textbox3.Text += reader[1].ToString();
+                    Textbox3.Text += reader[2].ToString();
+                    Textbox3.Text += reader[3].ToString();
+                    Textbox3.Text += reader[4].ToString();
+                    Textbox3.Text += "\r\n";
+                }
+            }
+            con.Close();
+            #endregion
 
             #region Gaat kijken of die plus min keer etc knop wel aan staan zo niet dan disabled hij ze.
             if (Knopplus == false && Knopmin == false && Knopkeer == false && Knopdelen == false && Knopmod == false)
@@ -222,6 +245,7 @@ namespace Calc4you_Rekenmachine
                 command.Parameters.AddWithValue("@isTeken", "=");
                 command.ExecuteReader();
                 conn.Close();
+
                 getal1 = 0;
                 getal2 = 0;
                 Knopmin = false;
@@ -297,7 +321,6 @@ namespace Calc4you_Rekenmachine
                 getal2 = 0;
                 Knopmod = false;
             }
-
         }
         #endregion
 
@@ -312,11 +335,8 @@ namespace Calc4you_Rekenmachine
             }
             else
             {
-
                 N = double.Parse(TextBox.Text);
-
                 N = N - (N * 2);
-
                 TextBox.Text = N.ToString("0");
             }
 
@@ -325,31 +345,26 @@ namespace Calc4you_Rekenmachine
 
         #region Delete button methode. hd
         //* simpel "textbox remove length -1 command", hij wist steeds de karakter aan de einde van de string. Natuurlijk kijkt hij eerst of de text ''null'' is of text bevat, en voert de 'if' command uit.
-
         private void buttonDelete_Click(object sender, RoutedEventArgs e)
         {
             if (TextBox.Text != "")
             {
                 TextBox.Text = (TextBox.Text.Remove(TextBox.Text.Length - 1));
-
             }
         }
         #endregion
 
         #region Loop voor de Delete button. hd
         //* Hij kijkt of de text in TextBox.Text null is, en zet de Delete button naar False als hij niks bevat. True als er karakters er in zijn. Dit is zo gemaakt omdat hij anders crasht als je probeert de 'length -1' command uit te voeren op een 'null string'.
-
         private void DeleteButtonLoop()
         {
             if (TextBox.Text == "")
             {
                 buttonDelete.IsEnabled = false;
-
             }
             else
             {
                 buttonDelete.IsEnabled = true;
-
             }
         }
         #endregion
@@ -458,7 +473,6 @@ namespace Calc4you_Rekenmachine
             int antwoord = Convert.ToInt32(TextBox.Text);
             string eind = DecimalToHexadecimal(antwoord);
             TextBox.Text = eind;
-
         }
 
         #endregion
@@ -485,19 +499,15 @@ namespace Calc4you_Rekenmachine
         public static string DecimalToHexadecimal(int dec)
         {
             if (dec < 1) return "0";
-
             int hex = dec;
             string hexStr = string.Empty;
-
             while (dec > 0)
             {
                 hex = dec % 16;
-
                 if (hex < 10)
                     hexStr = hexStr.Insert(0, Convert.ToChar(hex + 48).ToString());
                 else
                     hexStr = hexStr.Insert(0, Convert.ToChar(hex + 55).ToString());
-
                 dec /= 16;
             }
 
@@ -506,32 +516,20 @@ namespace Calc4you_Rekenmachine
 
         #endregion
 
-        #region sql connecten
-        public void Button_Click(object sender, RoutedEventArgs e)
+        #region sql delete database en cleart textbox3 
+        private void buttonClearData_Click(object sender, RoutedEventArgs e)
         {
             Textbox3.Text = "";
+
             InitializeComponent();
-            SqlConnection con = new SqlConnection();
-            con.ConnectionString = connection;
-            SqlCommand cmd = new SqlCommand("SELECT TOP (10) [Getal1], [Operator], [Getal2], [isTeken], [Antwoord] FROM[dbo].[Berekeningen]", con);
-
-            con.Open();
-            
-            using (var reader = cmd.ExecuteReader())
-            {
-                 while (reader.Read())
-                 {
-                     Textbox3.Text += reader[0].ToString();
-                     Textbox3.Text += reader[1].ToString();
-                     Textbox3.Text += reader[2].ToString();
-                     Textbox3.Text += reader[3].ToString();
-                     Textbox3.Text += reader[4].ToString();
-                     Textbox3.Text += "\r\n";
-                 }
-
-            }
-            con.Close();
-        } 
-        #endregion
+            SqlConnection conn = new SqlConnection();
+            conn.ConnectionString = connection;
+            conn.Open();
+            var command =
+                new SqlCommand("DELETE FROM [dbo].[Berekeningen] WHERE IDname <= 10; DBCC CHECKIDENT('[dbo].[Berekeningen]', RESEED, 0) ", conn);
+            command.ExecuteReader();
+            conn.Close();
+            #endregion
+        }
     }
 } 

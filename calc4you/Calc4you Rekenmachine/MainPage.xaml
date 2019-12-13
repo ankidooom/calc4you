@@ -21,7 +21,7 @@
         <Button x:Name="buttonGetallen2" Content="3" Margin="584,305,0,0" VerticalAlignment="Top" Height="74" Width="194" FontWeight="Bold" FontSize="45" Click="button3_Click"/>
         <Button x:Name="buttonPunt" Content="." Margin="584,384,0,0" VerticalAlignment="Top" Height="74" Width="194" FontSize="45" FontWeight="Bold" Click="buttonPunt_Click"/>
         <TextBox x:Name="TextBox" HorizontalAlignment="Left" Margin="186,35,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="107" Width="592" HorizontalTextAlignment="Center" TextAlignment="Right" FontSize="60" FontWeight="Bold" TextChanged="TextBox_TextChanged"/>
-        <Button x:Name="buttonClear" Content="C" Margin="783,35,0,0" VerticalAlignment="Top" Height="107" Width="199" FontSize="60" FontWeight="Bold" Click="name_Click"/>
+        <Button x:Name="buttonClear" Content="C" Margin="783,35,0,0" VerticalAlignment="Top" Height="107" Width="98" FontSize="60" FontWeight="Bold" Click="name_Click"/>
         <Button x:Name="buttonDelete" Content="⌫" Margin="987,35,0,0" VerticalAlignment="Top" Height="107" Width="199" FontSize="65" Click="buttonDelete_Click"/>
         <Button x:Name="buttonPlus" Content="+" Margin="783,147,0,0" VerticalAlignment="Top" Height="74" Width="199" FontSize="45" FontWeight="Bold" Click="buttonPlus_Click"/>
         <Button x:Name="buttonMin" Content="-" Margin="783,226,0,0" VerticalAlignment="Top" Height="74" Width="199" FontSize="45" FontWeight="Bold" Click="buttonMin_Click"/>
@@ -35,7 +35,7 @@
         <Button x:Name="wisselKoersdollar" Content="$ &gt; €" Margin="1091,305,0,0" VerticalAlignment="Top" Height="74" Width="95" Click="wisselKoersDollar_Click" FontSize="30" FontWeight="Bold"/>
         <Button x:Name="buttonBin" Content="BIN" Margin="186,384,0,0" VerticalAlignment="Top" Height="74" Width="92" FontWeight="Bold" FontSize="30" Click="buttonBin_Click"/>
         <Button x:Name="buttonHex" Content="HEX" Margin="283,384,0,0" VerticalAlignment="Top" Height="74" Width="97" FontSize="30" FontWeight="Bold" Click="buttonHex_Click"/>
-        <TextBox x:Name="Textbox3" HorizontalAlignment="Left" Margin="1244,0,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Center" Width="383" Height="423" FontSize="25" FontWeight="Bold" TextAlignment="Right" TextChanged="TextBox_TextChanged_1" IsColorFontEnabled="False"/>
-        <Button Content="Button" Margin="10,147,0,0" VerticalAlignment="Top" Height="74" Width="150" Click="Button_Click"/>
+        <TextBox x:Name="Textbox3" HorizontalAlignment="Left" Margin="1244,0,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Center" Width="383" Height="423" FontSize="25" FontWeight="Bold" TextAlignment="Right" TextChanged="TextBox_TextChanged_1"/>
+        <Button x:Name="buttonClearD" Content="CE" Margin="886,35,0,0" VerticalAlignment="Top" Height="107" Width="97" FontSize="60" FontWeight="Bold" Click="buttonClearData_Click"/>
     </Grid>
 </Page>
