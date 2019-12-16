@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\ankid\Source\Repos\ankidooom\calc4you\calc4you\Calc4you Rekenmachine\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-12-13T07:40:19.551</Modified>
+      <Modified>2019-12-13T11:39:45.870</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\ankid\Source\Repos\ankidooom\calc4you\calc4you\Calc4you Rekenmachine\bin\x86\Debug\Calc4you Rekenmachine.exe">
       <PackagePath>entrypoint\Calc4you Rekenmachine.exe</PackagePath>
-      <Modified>2019-12-13T07:40:18.910</Modified>
+      <Modified>2019-12-13T11:39:45.203</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -90,11 +90,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ankid\Source\Repos\ankidooom\calc4you\calc4you\Calc4you Rekenmachine\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-12-13T07:40:18.512</Modified>
+      <Modified>2019-12-13T11:39:44.977</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ankid\Source\Repos\ankidooom\calc4you\calc4you\Calc4you Rekenmachine\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-12-13T07:40:18.511</Modified>
+      <Modified>2019-12-13T11:39:44.977</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -106,7 +106,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ankid\Source\Repos\ankidooom\calc4you\calc4you\Calc4you Rekenmachine\bin\x86\Debug\Core\Calc4you Rekenmachine.exe">
       <PackagePath>Calc4you Rekenmachine.exe</PackagePath>
-      <Modified>2019-12-13T07:40:19.542</Modified>
+      <Modified>2019-12-13T11:39:45.862</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
